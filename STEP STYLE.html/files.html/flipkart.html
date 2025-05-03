@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StepStyle - Shoe Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: skyblue;
+    }
+
+    header {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: rgb(114, 131, 130);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0.75rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1400x400?text=Your+Shoe+Store') no-repeat center center/cover;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(54, 27, 151);
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .product {
+      background: rgb(235, 224, 224);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .product img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product p {
+      color: rgb(158, 143, 143);
+    }
+
+    .footer {
+      background: skyblue;
+      color: rgb(7, 3, 3);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    nav button{
+      color: #000;
+      background-color: violet;
+      height: 30px;
+      width: 80px;
+    }
+
+    button{
+      color: white;
+      background-color: red;
+      height: 50px;
+      width: 150px;
+    }
+    .product h4{
+      color: blue;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>StepStyle</h1>
+    <p>Your Perfect Shoes, Every Step of the Way</p>
+  </header>
+
+  <nav>
+    <a href="flipkart.html"><BUtton>HOME</BUtton></a>
+    <a href="classic snakers.html"><BUtton>BUY NOW</BUtton></a>
+    <a href="my cart.html"><button>MY CART</button></a>
+    <a href="#">🔍</a>
+    <input type="search"value="search">
+  </nav>
+
+  <div class="hero">
+    Discover the Latest in Shoe Fashion
+  </div>
+
+  <section class="products">
+    <div class="product">
+      <a href="classic snakers.html"><img src="images/addidas.jpg" alt=""></a>
+      <h3>Classic Sneakers</h3>
+      <p> <H4> Up to 59% off</H4></p>
+      <p> <a href="classic snakers.html"><BUtton><h3>SEE MORE</H3></BUtton></a>
+    </p>
+    </div>
+
+    <div class="product">
+      <a href="t-shirt.html"><img src="images/chex.jpeg" alt=""></a>
+      <h3> T-SHIRTS </h3>
+      <p> <H4> Up to 70% off </H4></p>
+      <p> <a href="t-shirt.html"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+
+    </div>
+    <div class="product">
+      <a href="my cart.html"><img src="images/oppo.jpg" alt=""></a>
+      <h3> SMART PHONES </h3>
+      <p> <H4>  Up to 50% off </H4></p>
+      <p> <a href="ADDIDAS.HTML"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+    </div>
+
+    <div class="product">
+      <a href="my cart.html"><img src="images/whatch.jpeg" alt=""></a>
+      <h3> WHATCHES </h3>
+      <p> <H4>  Up to 39% off </H4></p>
+      <p> <a href="classic snakers.html"><BUtton><h3>SEE MORE</h3></BUtton></a>
+    </p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <a href="t-shirt.html"><img src="images/puma.jpeg" alt=""></a>
+      <h3>t-shirt</h3>
+      <p> <H4> Up to 36% off</H4></p>
+      <p> <a href="t-shirt.html"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+    </div>
+
+    <div class="product">
+      <a href="t-shirt.html"><img src="images/polo.jpeg" alt=""></a>
+      <h3>full black polo T-shirt</h3>
+      <p> <H4>  Up to 80% off </H4></p>
+      <p> <a href="t-shirt.html"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+
+    </div>
+    <div class="product">
+      <a href="t-shirt.html"><img src="images/chex.jpeg" alt=""></a>
+      <h3>full chex t T-shirt</h3>
+      <p> <H4> Up to 29% off </H4></p>
+      <p> <a href="t-shirt.html"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+    </div>
+
+    <div class="product">
+      <a href="t-shirt.html"><img src="images/lining.jpeg" alt=""></a>
+      <h3>white linening t T-shirt</h3>
+      <p> <H4> Up to 60% off</H4></p>
+      <p> <a href="t-shirt.html"><BUtton><H3>SEE MORE</H3></BUtton></a>
+    </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 StepStyle. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StepStyle - Shoe Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: skyblue;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0.75rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1400x400?text=Your+Shoe+Store') no-repeat center center/cover;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(54, 27, 151);
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .product {
+      background: rgb(235, 224, 224);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .product img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product p {
+      color: #555;
+    }
+
+    nav button{
+      color: black;
+      background-color: white;
+      height: 30px;
+      width: 100px;
+
+    }
+    button{
+      color: #000;
+      background-color: crimson;
+      font-style: initial;
+      height: 50px;
+      width: 70px;
+    }
+
+    .footer {
+      background: white;
+      color: rgb(7, 3, 3);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <nav>
+        <a href="flipkart.html"><BUtton>HOME</BUtton></a>
+        <a href="cart.html"><BUtton>BUY NOW</BUtton></a>
+        <a href="cart.html"><BUtton>MY CART</BUtton></a>
+        <a href="#">🔍</a>
+        <input type="search"value="search"> 
+      </nav>
+
+      <div class="hero">
+        Discover the Latest in T-shirt   Fashion
+      </div>
+      
+      <section class="products">
+        <div class="product">
+          <a href="ADDIDAS.HTML"><img src="images/puma.jpeg" alt=""></a>
+          <h3>Solid black puma t-shirt</h3>
+          <p> <H4> RS.1499 </H4></p>
+          <p> <a href="BUY.html"><BUtton>BUY NOW</BUtton></a>
+            <a href="BUY.html"><BUtton>ADD TO CART</BUtton></a>
+        </p>
+        </div>
+    
+        <div class="product">
+          <a href="ADDIDAS.HTML"><img src="images/polo.jpeg" alt=""></a>
+          <h3>full black polo T-shirt</h3>
+          <p> <H4> RS.999 </H4></p>
+          <p> <a href="BUY.html"><BUtton>BUY NOW</BUtton></a>
+            <a href="BUY.html"><BUtton>ADD TO CART</BUtton></a>
+        </p>
+    
+        </div>
+        <div class="product">
+          <a href="ADDIDAS.HTML"><img src="images/chex.jpeg" alt=""></a>
+          <h3>full chex t T-shirt</h3>
+          <p> <H4> RS.399 </H4></p>
+          <p> <a href="BUY.html"><BUtton>BUY NOW</BUtton></a>
+            <a href="BUY.html"><BUtton>ADD TO CART</BUtton></a>
+        </p>
+        </div>
+    
+        <div class="product">
+          <a href="ADDIDAS.HTML"><img src="images/lining.jpeg" alt=""></a>
+          <h3>white linening t T-shirt</h3>
+          <p> <H4> RS.499 </H4></p>
+          <p> <a href="BUY.html"><BUtton>BUY NOW</BUtton></a>
+            <a href="BUY.html"><BUtton>ADD TO CART</BUtton></a>
+        </p>
+        </div>
+      </section>
+    
+      <footer class="footer">
+        &copy; 2025 StepStyle. All rights reserved.
+      </footer>
+    
+    </body>
+    </html>
+    
